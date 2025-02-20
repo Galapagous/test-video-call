@@ -5,7 +5,7 @@ import { toast } from 'sonner';
 import copy from 'clipboard-copy';
 import { IoCall, IoCopy, IoVideocam, IoMic, IoMicOff, IoVideocamOff, IoCallOutline, IoClose } from "react-icons/io5";
 
-const socket = io.connect("https://api.ejobs.com.ng");
+const socket = io.connect("https://test-video-call-api.onrender.com");
 
 const Chat = () => {
   const [me, setMe] = useState("");
